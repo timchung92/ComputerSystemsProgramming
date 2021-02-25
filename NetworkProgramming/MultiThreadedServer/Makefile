@@ -1,3 +1,3 @@
 all:
 	gcc tcpclient.c -o tcpclient
-	gcc multi-tcpserver.c -pthread -o multi-tcpserver
+	gcc multithread-tcp.c -pthread -o multithread-tcp
